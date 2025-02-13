@@ -1,0 +1,1 @@
+fn main() { let x = 5; let y = &x; let z = y as *const i32; unsafe { let v = *z; println!("{}", v); } }
