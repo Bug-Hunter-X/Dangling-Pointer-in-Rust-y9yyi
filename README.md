@@ -1,0 +1,1 @@
+This repository contains a demonstration of a common error in Rust: creating a dangling pointer.  The original code attempts to dereference a pointer after the memory it points to has gone out of scope. The solution demonstrates how to avoid this issue using techniques such as smart pointers or ensuring memory management.
